@@ -4,7 +4,7 @@
 Tampilan utama dari aplikasi ini dirancang agar mudah digunakan dan responsif, memberikan pengalaman pengguna yang maksimal.
 
 <p align="center">
-  <img src="https://github.com/hokagelegend9999/alpha/assets/158546743/ee0b4e39-3384-4cb9-bf74-ba72b89a2a43" alt="Tampilan Menu" width="600"/>
+  <img src="https://github.com/hokagelegend9999/delta/blob/main/Screenshot%202025-04-21%20162934.png?raw=true" alt="Tampilan Menu" width="600"/>
 </p>
 
 ---
