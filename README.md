@@ -22,7 +22,7 @@ Fitur backup data VPS memungkinkan Anda menyimpan konfigurasi penting dengan mud
 
 ### INSTALL SCRIPT 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/delta/refs/heads/main/install.sh && chmod +x premi.sh && ./premi.sh
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/hokagelegend9999/delta/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ## UPDATE SCRIPT
