@@ -22,8 +22,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID=""
-KEY=""
+CHATID="1469244768"
+KEY="7911375235:AAERwknqnWLoqWFbsSuUfqCQGMy93UQHUTk"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -77,7 +77,7 @@ clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
-izinsc="https://nata.serv00.net/license/v1.8/vip"
+izinsc="https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/delta"
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
@@ -107,7 +107,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://nata.serv00.net/v1.8/"
+REPO="https://raw.githubusercontent.com/hokagelegend9999/delta/refs/heads/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -451,7 +451,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget raw.githubusercontent.com/vpn-store0/autoscript/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/hokagelegend9999/delta/refs/heads/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
@@ -798,7 +798,7 @@ function menu(){
 clear
 print_install "Memasang Menu Packet"
 wget ${REPO}Cdy/menu.zip
-7z x -pHeyHeyMauDecryptYaAwokawok menu.zip
+7z x menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
 rm -rf menu
